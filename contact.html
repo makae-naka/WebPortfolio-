@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Makanaka | Contact - Get in Touch</title>
+    <meta name="description" content="Contact Makanaka for web development, graphics design, or collaboration opportunities.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="lizard.png">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                Sam.dev
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="dark-toggle" id="darkToggle">
+                <span class="toggle-icon">🌙</span>
+                <span class="toggle-text">Dark</span>
+            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Contact Page Content -->
+    <main>
+        <section id="contact">
+            <div class="container">
+                <div class="section-card">
+                    <h2>📬 Let's Connect</h2>
+                    <p class="contact-intro">I'm open to collaborations, and design projects. Let's create something amazing together!</p>
+                    
+                   
+                    <div class="contact-form-container">
+                        
+                        <form id="contactForm" class="contact-form" action="https://formspree.io/f/xbdqrylj" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="_replyto" placeholder="Enter your email address">
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            
+                            <input type="hidden" name="_to" value="mudzami.maka@gmail.com">
+                            <input type="hidden" name="_subject" value="New Message from Portfolio">
+                            
+                            <button type="submit" class="submit-btn">📧 Send Message</button>
+                            <div id="formSuccess" class="form-success"></div>
+                        </form>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="social-divider">
+                        <span>Or connect with me on social media</span>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="https://github.com/makae-naka" target="_blank" rel="noopener noreferrer" class="social-icon github" aria-label="GitHub">
+                            <svg class="icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.26.82-.58 0-.287-.01-1.05-.015-2.06-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.082-.73.082-.73 1.205.085 1.838 1.237 1.838 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.123-.3-.535-1.52.117-3.16 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.29-1.552 3.297-1.23 3.297-1.23.653 1.64.24 2.86.118 3.16.768.84 1.233 1.91 1.233 3.22 0 4.61-2.804 5.62-5.476 5.92.43.37.824 1.102.824 2.22 0 1.602-.015 2.894-.015 3.287 0 .322.216.698.83.578C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/makanaka-s-mudzami-216435346/" target="_blank" rel="noopener noreferrer" class="social-icon linkedin" aria-label="LinkedIn">
+                            <svg class="icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.771-.773 1.771-1.729V1.729C24 .774 23.204 0 22.225 0z"/>
+                            </svg>
+                        </a>
+                        
+                        <a href="https://www.facebook.com/profile.php?id=61578253230434" target="_blank" rel="noopener noreferrer" class="social-icon facebook" aria-label="Facebook">
+                            <svg class="icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Makanaka —  Portfolio</p>
+            <div class="footer-social">
+                
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
