@@ -35,7 +35,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--bg-light);
     color: var(--text-primary);
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background 0.4s ease, color 0.4s ease;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -122,7 +122,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     color: var(--text-primary);
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: color 0.4s;
     padding: 0.5rem 0;
     position: relative;
     white-space: nowrap;
@@ -136,7 +136,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     width: 0;
     height: 2px;
     background: var(--gradient);
-    transition: width 0.3s;
+    transition: width 0.4s;
 }
 
 .nav-links a:hover::after,
@@ -153,7 +153,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     padding: 0.4rem 0.9rem;
     cursor: pointer;
     font-size: 0.85rem;
-    transition: all 0.3s;
+    transition: all 0.4s;
     color: var(--text-primary);
     display: flex;
     align-items: center;
@@ -177,7 +177,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     font-size: 1.4rem;
     cursor: pointer;
     color: var(--text-primary);
-    transition: all 0.3s;
+    transition: all 0.4s;
     flex-shrink: 0;
 }
 
@@ -191,7 +191,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     border-radius: 1.5rem;
     padding: 2.5rem;
     box-shadow: var(--shadow);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .home-card:hover,
@@ -214,7 +214,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     object-fit: cover;
     border: 4px solid #38bdf8;
     box-shadow: var(--shadow);
-    transition: transform 0.3s;
+    transition: transform 0.4s;
 }
 
 .profile-image img:hover { transform: scale(1.05); }
@@ -330,7 +330,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     padding: 1.8rem 1.5rem;
     border-radius: 1rem;
     text-align: center;
-    transition: all 0.3s;
+    transition: all 0.4s;
     border: 1px solid var(--border);
     width: 100%;
     max-width: 320px;
@@ -409,7 +409,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     color: var(--text-primary);
     font-family: inherit;
     font-size: 1rem;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 .form-group input:focus,
@@ -440,7 +440,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     border-radius: 50px;
     cursor: pointer;
     font-size: 1rem;
-    transition: all 0.3s;
+    transition: all 0.4s;
     margin-top: 0.5rem;
 }
 
@@ -514,7 +514,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     background: var(--bg-light);
     border-radius: 50px;
     border: 1px solid var(--border);
-    transition: all 0.3s;
+    transition: all 0.4s;
     cursor: default;
 }
 
