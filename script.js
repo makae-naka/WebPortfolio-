@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             messageInput.classList.add('error');
             return false;
         } else if (message.length < 10) {
-            messageError.textContent = 'Message must be at least 10 characters';
+            messageError.textContent = 'Message must be at least 2 characters';
             messageError.classList.add('show');
             messageInput.classList.add('error');
             return false;
