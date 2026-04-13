@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
             messageError.classList.add('show');
             messageInput.classList.add('error');
             return false;
-        } else if (message.length < 10) {
+        } else if (message.length < 2) {
             messageError.textContent = 'Message must be at least 2 characters';
             messageError.classList.add('show');
             messageInput.classList.add('error');
