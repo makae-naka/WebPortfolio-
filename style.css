@@ -32,14 +32,8 @@ body.dark {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: var(--bg-light);
-    color: var(--text-primary);
-    transition: background 0.4s ease, color 0.4s ease;
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+            color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 main {
@@ -147,6 +141,9 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
 
 /* ========== DARK TOGGLE ========== */
 .dark-toggle {
+   .dark-toggle {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
     background: var(--card-light);
     border: 1px solid var(--border);
     border-radius: 50px;
@@ -248,7 +245,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     background: var(--bg-light);
     border-radius: 1rem;
     border: 1px solid var(--border);
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .stat-item:hover { transform: translateY(-5px); }
@@ -296,7 +293,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     border-radius: 50px;
     font-weight: 600;
     color: #0f172a;
-    transition: all 0.2s;
+    transition: all 0.4s;
 }
 
 .skill-badge:hover {
@@ -367,7 +364,7 @@ h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     border-radius: 50px;
     font-weight: 600;
     font-size: 0.85rem;
-    transition: all 0.2s;
+    transition: all 0.4s;
 }
 
 .cert-btn:hover {
